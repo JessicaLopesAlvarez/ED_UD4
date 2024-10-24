@@ -9,7 +9,7 @@ public class Average {
     
         int total = 0;
         for (int i=0; i<count;i++){
-            int n = r.nextInt(50) +1;
+            int n = r.nextInt(100) +1;
             total+= n;
             System.out.println(n+" ");
         }        
@@ -17,5 +17,6 @@ public class Average {
         System.out.println("Total: "+total);
         double media = (double) total / (double) count;
         System.out.println("Media: " + media);
+        
     }
 }
