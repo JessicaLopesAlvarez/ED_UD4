@@ -15,7 +15,8 @@ public class Average {
         }        
         System.out.println();
         System.out.println("Total: "+total);
-        double media = (double) total / (double) count;
+        //Cambiamos dobles por enteros
+        int media = (int) total / (int) count;
         System.out.println("Media: " + media);
         
     }
